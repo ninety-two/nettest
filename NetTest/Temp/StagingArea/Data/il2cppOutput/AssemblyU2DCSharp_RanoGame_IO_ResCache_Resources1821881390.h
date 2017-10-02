@@ -1,0 +1,47 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+
+#include "mscorlib_System_Object2689449295.h"
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.LinkedListNode`1<RanoGame.IO.ResCache/ResHandle>>
+struct Dictionary_2_t1938405832;
+
+
+
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// RanoGame.IO.ResCache/Resources
+struct  Resources_t1821881390  : public Il2CppObject
+{
+public:
+	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.LinkedListNode`1<RanoGame.IO.ResCache/ResHandle>> RanoGame.IO.ResCache/Resources::m_Resources
+	Dictionary_2_t1938405832 * ___m_Resources_0;
+
+public:
+	inline static int32_t get_offset_of_m_Resources_0() { return static_cast<int32_t>(offsetof(Resources_t1821881390, ___m_Resources_0)); }
+	inline Dictionary_2_t1938405832 * get_m_Resources_0() const { return ___m_Resources_0; }
+	inline Dictionary_2_t1938405832 ** get_address_of_m_Resources_0() { return &___m_Resources_0; }
+	inline void set_m_Resources_0(Dictionary_2_t1938405832 * value)
+	{
+		___m_Resources_0 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Resources_0, value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
